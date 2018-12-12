@@ -1,20 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
+<?php
+if (empty ($tituloseo)) {$tituloseo = $MetaSeo["inicio"]["tituloseo"];}
+if (empty ($descripcion)) {$descripcion = $MetaSeo["inicio"]["metadescripcion"]; }
+if (empty ($canonical)) {$canonical = $MetaSeo["inicio"]["canopc"];}
 
-<!-- Basic Page Needs
-================================================== -->
-<title>Servicios Digitales | Gendigital</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+?>
 
-<!-- CSS
-================================================== -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/colors/orange.css">
 
-</head>
-<body>
 
 <!-- Wrapper -->
 <div id="wrapper" class="wrapper-with-transparent-header">
@@ -47,7 +38,7 @@
 							</ul>-->
 						</li>
 
-						<li><a href="#">Find Work</a>
+						<li><a href="#">Encontrar </a>
 							<ul class="dropdown-nav">
 								<li><a href="#">Browse Jobs</a>
 									<ul class="dropdown-nav">
@@ -170,7 +161,7 @@
 											<a href="dashboard-manage-candidates.html">
 												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
 												<span class="notification-text">
-													<strong>Michael Shannah</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+													<strong>Michael Shannah</strong> aplicó para un empleo <span class="color">Full Stack Software Engineer</span>
 												</span>
 											</a>
 										</li>
@@ -180,7 +171,7 @@
 											<a href="dashboard-manage-bidders.html">
 												<span class="notification-icon"><i class=" icon-material-outline-gavel"></i></span>
 												<span class="notification-text">
-													<strong>Gilbert Allanis</strong> placed a bid on your <span class="color">iOS App Development</span> project
+													<strong>Gilbert Allanis</strong> hizo una oferta en tu proyecto <span class="color">iOS App Development</span> project
 												</span>
 											</a>
 										</li>
@@ -190,7 +181,7 @@
 											<a href="dashboard-manage-jobs.html">
 												<span class="notification-icon"><i class="icon-material-outline-autorenew"></i></span>
 												<span class="notification-text">
-													Your job listing <span class="color">Full Stack PHP Developer</span> is expiring.
+													Tu anuncio de empleo <span class="color">Full Stack PHP Developer</span> está expirado.
 												</span>
 											</a>
 										</li>
@@ -200,7 +191,7 @@
 											<a href="dashboard-manage-candidates.html">
 												<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
 												<span class="notification-text">
-													<strong>Sindy Forrest</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+													<strong>Sindy Forrest</strong> aplicó para un empleo <span class="color">Full Stack Software Engineer</span>
 												</span>
 											</a>
 										</li>
@@ -237,8 +228,8 @@
 												<span class="notification-avatar status-online"><img src="images/user-avatar-small-03.jpg" alt=""></span>
 												<div class="notification-text">
 													<strong>David Peterson</strong>
-													<p class="notification-msg-text">Thanks for reaching out. I'm quite busy right now on many...</p>
-													<span class="color">4 hours ago</span>
+													<p class="notification-msg-text">Gracias por contactarnos. Estoy bastante ocupado en este momento...</p>
+													<span class="color">Hece 4 horas</span>
 												</div>
 											</a>
 										</li>
@@ -249,8 +240,8 @@
 												<span class="notification-avatar status-offline"><img src="images/user-avatar-small-02.jpg" alt=""></span>
 												<div class="notification-text">
 													<strong>Sindy Forest</strong>
-													<p class="notification-msg-text">Hi Tom! Hate to break it to you, but I'm actually on vacation until...</p>
-													<span class="color">Yesterday</span>
+													<p class="notification-msg-text">¡Hola Tom! Odio decírtelo, pero en realidad estoy de vacaciones hasta ...</p>
+													<span class="color">Ayer</span>
 												</div>
 											</a>
 										</li>
@@ -261,8 +252,8 @@
 												<span class="notification-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></span>
 												<div class="notification-text">
 													<strong>Marcin Kowalski</strong>
-													<p class="notification-msg-text">I received payment. Thanks for cooperation!</p>
-													<span class="color">Yesterday</span>
+													<p class="notification-msg-text">Recibí el pago. ¡Gracias por la cooperación!</p>
+													<span class="color">Ayer</span>
 												</div>
 											</a>
 										</li>
@@ -296,7 +287,7 @@
 								<div class="user-details">
 									<div class="user-avatar status-online"><img src="images/user-avatar-small-01.jpg" alt=""></div>
 									<div class="user-name">
-										Tom Smith <span>Freelancer</span>
+										José Valderrama <span>Freelancer</span>
 									</div>
 								</div>
 								
@@ -345,7 +336,7 @@
 
 <!-- Intro Banner
 ================================================== -->
-<div class="intro-banner dark-overlay" data-background-image="images/home-background-02.jpg">
+<div class="intro-banner dark-overlay" data-background-image="images/Inicio-Gendigital.jpeg">
 
 	<!-- Transparent Header Spacer -->
 	<div class="transparent-header-spacer"></div>
@@ -450,7 +441,7 @@
 
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/job-category-01.jpg">
+				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/Desarrollo-Software.jpg">
 					<div class="photo-box-content">
 						<h3>Web / Desarrollo de Software</h3>
 						<span>612</span>
@@ -460,7 +451,7 @@
 			
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/job-category-02.jpg">
+				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/Ciencia-Datos.jpg">
 					<div class="photo-box-content">
 						<h3>Ciencia de Datos / Analitycs</h3>
 						<span>113</span>
@@ -470,7 +461,7 @@
 			
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/job-category-03.jpg">
+				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/Consultoria.jpg">
 					<div class="photo-box-content">
 						<h3>Consultoría / Contadores</h3>
 						<span>186</span>
@@ -480,9 +471,9 @@
 
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-list-layout-2.html" class="photo-box small" data-background-image="images/job-category-04.jpg">
+				<a href="jobs-list-layout-2.html" class="photo-box small" data-background-image="images/Redaccion.jpg">
 					<div class="photo-box-content">
-						<h3>Redacción & Redacciones</h3>
+						<h3>Traducción & Redacciones</h3>
 						<span>298</span>
 					</div>
 				</a>
@@ -490,7 +481,7 @@
 
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/job-category-05.jpg">
+				<a href="jobs-list-layout-1.html" class="photo-box small" data-background-image="images/Marketing.jpg">
 					<div class="photo-box-content">
 						<h3>Ventas & Marketing</h3>
 						<span>549</span>
@@ -500,7 +491,7 @@
 			
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/job-category-06.jpg">
+				<a href="jobs-list-layout-full-page-map.html" class="photo-box small" data-background-image="images/Diseno-Grafico.jpg">
 					<div class="photo-box-content">
 						<h3>Diseño Gráfico</h3>
 						<span>873</span>
@@ -510,7 +501,7 @@
 			
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/job-category-07.jpg">
+				<a href="jobs-grid-layout-full-page.html" class="photo-box small" data-background-image="images/Marketing-Digital.jpg">
 					<div class="photo-box-content">
 						<h3>Marketing Digital</h3>
 						<span>125</span>
@@ -520,7 +511,7 @@
 
 			<div class="col-xl-3 col-md-6">
 				<!-- Photo Box -->
-				<a href="jobs-list-layout-2.html" class="photo-box small" data-background-image="images/job-category-08.jpg">
+				<a href="jobs-list-layout-2.html" class="photo-box small" data-background-image="images/Cursos.jpg">
 					<div class="photo-box-content">
 						<h3>Cursos & Talleres</h3>
 						<span>445</span>
@@ -558,16 +549,16 @@
 
 							<!-- Details -->
 							<div class="task-listing-description">
-								<h3 class="task-listing-title">Food Delviery Mobile App</h3>
+								<h3 class="task-listing-title">Diseño de App Móvil - Comida a domicilio</h3>
 								<ul class="task-icons">
-									<li><i class="icon-material-outline-location-on"></i> San Francisco</li>
-									<li><i class="icon-material-outline-access-time"></i> 2 minutes ago</li>
+									<li><i class="icon-material-outline-location-on"></i> San Antonio</li>
+									<li><i class="icon-material-outline-access-time"></i>Hace 2 minutos</li>
 								</ul>
 								<div class="task-tags margin-top-15">
 									<span>iOS</span>
 									<span>Android</span>
 									<span>mobile apps</span>
-									<span>design</span>
+									<span>diseño</span>
 								</div>
 							</div>
 
@@ -577,9 +568,9 @@
 							<div class="task-listing-bid-inner">
 								<div class="task-offers">
 									<strong>$1,000 - $2,500</strong>
-									<span>Fixed Price</span>
+									<span>Precio Fijo</span>
 								</div>
-								<span class="button button-sliding-icon ripple-effect">Bid Now <i class="icon-material-outline-arrow-right-alt"></i></span>
+								<span class="button button-sliding-icon ripple-effect">Ofertar <i class="icon-material-outline-arrow-right-alt"></i></span>
 							</div>
 						</div>
 					</a>
@@ -594,13 +585,13 @@
 							<div class="task-listing-description">
 								<h3 class="task-listing-title">2000 Words English to German</h3>
 								<ul class="task-icons">
-									<li><i class="icon-material-outline-location-off"></i> Online Job</li>
-									<li><i class="icon-material-outline-access-time"></i> 5 minutes ago</li>
+									<li><i class="icon-material-outline-location-off"></i> Trabajo en Linea</li>
+									<li><i class="icon-material-outline-access-time"></i> hace 5 minutos</li>
 								</ul>
 								<div class="task-tags margin-top-15">
 									<span>copywriting</span>
-									<span>translating</span>
-									<span>editing</span>
+									<span>traducción</span>
+									<span>editor</span>
 								</div>
 							</div>
 
@@ -610,9 +601,9 @@
 							<div class="task-listing-bid-inner">
 								<div class="task-offers">
 									<strong>$75</strong>
-									<span>Fixed Price</span>
+									<span>Precio Fijo</span>
 								</div>
-								<span class="button button-sliding-icon ripple-effect">Bid Now <i class="icon-material-outline-arrow-right-alt"></i></span>
+								<span class="button button-sliding-icon ripple-effect">Ofertar <i class="icon-material-outline-arrow-right-alt"></i></span>
 							</div>
 						</div>
 					</a>
@@ -625,15 +616,15 @@
 
 							<!-- Details -->
 							<div class="task-listing-description">
-								<h3 class="task-listing-title">Fix Python Selenium Code</h3>
+								<h3 class="task-listing-title">Reparar Error 500 Php</h3>
 								<ul class="task-icons">
-									<li><i class="icon-material-outline-location-off"></i> Online Job</li>
-									<li><i class="icon-material-outline-access-time"></i> 30 minutes ago</li>
+									<li><i class="icon-material-outline-location-off"></i> Trabajo en Linea</li>
+									<li><i class="icon-material-outline-access-time"></i> hace 30 minutos</li>
 								</ul>
 								<div class="task-tags margin-top-15">
-									<span>Python</span>
-									<span>Flask</span>
-									<span>API Development</span>
+									<span>Php</span>
+									<span>Wordpress</span>
+									<span>Desarrollo API</span>
 								</div>
 							</div>
 
@@ -643,9 +634,9 @@
 							<div class="task-listing-bid-inner">
 								<div class="task-offers">
 									<strong>$100 - $150</strong>
-									<span>Hourly Rate</span>
+									<span>Tarifa por hora</span>
 								</div>
-								<span class="button button-sliding-icon ripple-effect">Bid Now <i class="icon-material-outline-arrow-right-alt"></i></span>
+								<span class="button button-sliding-icon ripple-effect">Ofertar <i class="icon-material-outline-arrow-right-alt"></i></span>
 							</div>
 						</div>
 					</a>
@@ -658,14 +649,14 @@
 
 							<!-- Details -->
 							<div class="task-listing-description">
-								<h3 class="task-listing-title">WordPress Theme Installation</h3>
+								<h3 class="task-listing-title">Instalar Plantilla WordPress</h3>
 								<ul class="task-icons">
-									<li><i class="icon-material-outline-location-off"></i> Online Job</li>
-									<li><i class="icon-material-outline-access-time"></i> 1 hour ago</li>
+									<li><i class="icon-material-outline-location-off"></i> Trabajo en Linea</li>
+									<li><i class="icon-material-outline-access-time"></i> hace 1 hora</li>
 								</ul>
 								<div class="task-tags margin-top-15">
 									<span>WordPress</span>
-									<span>Theme Installation</span>
+									<span>Instalación de Plantilla</span>
 								</div>
 							</div>
 
@@ -675,9 +666,9 @@
 							<div class="task-listing-bid-inner">
 								<div class="task-offers">
 									<strong>$100</strong>
-									<span>Fixed Price</span>
+									<span>Precio Fijo</span>
 								</div>
-								<span class="button button-sliding-icon ripple-effect">Bid Now <i class="icon-material-outline-arrow-right-alt"></i></span>
+								<span class="button button-sliding-icon ripple-effect">Ofertar <i class="icon-material-outline-arrow-right-alt"></i></span>
 							</div>
 						</div>
 					</a>
@@ -690,15 +681,15 @@
 
 							<!-- Details -->
 							<div class="task-listing-description">
-								<h3 class="task-listing-title">PHP Core Website Fixes</h3>
+								<h3 class="task-listing-title">Reparación PHP Core en Sitio Web</h3>
 								<ul class="task-icons">
-									<li><i class="icon-material-outline-location-off"></i> Online Job</li>
-									<li><i class="icon-material-outline-access-time"></i> 1 hour ago</li>
+									<li><i class="icon-material-outline-location-off"></i> Trabajo en línea</li>
+									<li><i class="icon-material-outline-access-time"></i> Hace una hora</li>
 								</ul>
 								<div class="task-tags margin-top-15">
 									<span>PHP</span>
-									<span>MySQL Administration</span>
-									<span>API Development</span>
+									<span>Administración MySQL</span>
+									<span>Desarrollo API</span>
 								</div>
 							</div>
 
@@ -708,9 +699,9 @@
 							<div class="task-listing-bid-inner">
 								<div class="task-offers">
 									<strong>$50 - $80</strong>
-									<span>Hourly Rate</span>
+									<span>Tarifa por hora</span>
 								</div>
-								<span class="button button-sliding-icon ripple-effect">Bid Now <i class="icon-material-outline-arrow-right-alt"></i></span>
+								<span class="button button-sliding-icon ripple-effect">Ofertar <i class="icon-material-outline-arrow-right-alt"></i></span>
 							</div>
 						</div>
 					</a>		
@@ -733,7 +724,7 @@
 			<div class="col-xl-12">
 				<!-- Section Headline -->
 				<div class="section-headline centered margin-top-0 margin-bottom-5">
-					<h3>How It Works?</h3>
+					<h3>Cómo funciona?</h3>
 				</div>
 			</div>
 			
@@ -747,8 +738,8 @@
 							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
 						</div>
 					</div>
-					<h3>Create an Account</h3>
-					<p>Bring to the table win-win survival strategies to ensure proactive domination going forward.</p>
+					<h3>Crea una cuenta</h3>
+					<p>Indícanos los detalles acerca del trabajo que necesitas hacer y nuestros freelancers lo harán bien y a menos costo de lo que te puedas imaginar</p>
 				</div>
 			</div>
 
@@ -762,8 +753,9 @@
 							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
 						</div>
 					</div>
-					<h3>Post a Task</h3>
-					<p>Efficiently unleash cross-media information without. Quickly maximize return on investment.</p>
+					<h3>Publica una Tarea</h3>
+					<p> Describe tu proyecto lo mejor que puedas. Comenzarás a recibir ofertas automáticamente por parte de nuestros freelancers. 
+						Tambíen puedes explorar el talento disponible en nuestro sitio.</p>
 				</div>
 			</div>
 
@@ -777,8 +769,8 @@
 							<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
 						</div>
 					</div>
-					<h3>Choose an Expert</h3>
-					<p>Nanotechnology immersion along the information highway will close the loop on focusing solely.</p>
+					<h3>Seleccione a un Experto</h3>
+					<p>Explora los perfiles de los freelancers. Conversa en tiempo real. Compara propuestas y selecciona el mejor</p>
 				</div>
 			</div>
 
@@ -796,7 +788,7 @@
 			<div class="col-xl-12">
 				<!-- Section Headline -->
 				<div class="section-headline centered margin-top-0 margin-bottom-5">
-					<h3>Testimonials</h3>
+					<h3>Testimonios</h3>
 				</div>
 			</div>
 		</div>
@@ -897,7 +889,7 @@
 						<i class="icon-line-awesome-suitcase"></i>
 						<div class="counter-inner">
 							<h3><span class="counter">1,586</span></h3>
-							<span class="counter-title">Jobs Posted</span>
+							<span class="counter-title">Trabajos Publicados</span>
 						</div>
 					</div>
 
@@ -906,7 +898,7 @@
 						<i class="icon-line-awesome-legal"></i>
 						<div class="counter-inner">
 							<h3><span class="counter">3,543</span></h3>
-							<span class="counter-title">Tasks Posted</span>
+							<span class="counter-title">Tareas Publicadas</span>
 						</div>
 					</div>
 
@@ -915,7 +907,7 @@
 						<i class="icon-line-awesome-user"></i>
 						<div class="counter-inner">
 							<h3><span class="counter">2,413</span></h3>
-							<span class="counter-title">Active Members</span>
+							<span class="counter-title">Miembros Activos</span>
 						</div>
 					</div>
 
@@ -924,7 +916,7 @@
 						<i class="icon-line-awesome-trophy"></i>
 						<div class="counter-inner">
 							<h3><span class="counter">99</span>%</h3>
-							<span class="counter-title">Satisfaction Rate</span>
+							<span class="counter-title">Tasa de Satisfacción</span>
 						</div>
 					</div>
 
@@ -1019,12 +1011,12 @@
 				<!-- Links -->
 				<div class="col-xl-2 col-lg-2 col-md-3">
 					<div class="footer-links">
-						<h3>For Candidates</h3>
+						<h3>Para los candidatos</h3>
 						<ul>
-							<li><a href="#"><span>Browse Jobs</span></a></li>
-							<li><a href="#"><span>Add Resume</span></a></li>
-							<li><a href="#"><span>Job Alerts</span></a></li>
-							<li><a href="#"><span>My Bookmarks</span></a></li>
+							<li><a href="#"><span>Explorar Trabajos</span></a></li>
+							<li><a href="#"><span>Agregar Resumen</span></a></li>
+							<li><a href="#"><span>Alertas</span></a></li>
+							<li><a href="#"><span>Mis Favoritos</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -1032,12 +1024,12 @@
 				<!-- Links -->
 				<div class="col-xl-2 col-lg-2 col-md-3">
 					<div class="footer-links">
-						<h3>For Employers</h3>
+						<h3>Para Empleadores</h3>
 						<ul>
-							<li><a href="#"><span>Browse Candidates</span></a></li>
-							<li><a href="#"><span>Post a Job</span></a></li>
-							<li><a href="#"><span>Post a Task</span></a></li>
-							<li><a href="#"><span>Plans & Pricing</span></a></li>
+							<li><a href="#"><span>Explorar Candidatos</span></a></li>
+							<li><a href="#"><span>Publicar un Empleo</span></a></li>
+							<li><a href="#"><span>Publicar una Tarea</span></a></li>
+							<li><a href="#"><span>Planes & Precios</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -1045,11 +1037,11 @@
 				<!-- Links -->
 				<div class="col-xl-2 col-lg-2 col-md-3">
 					<div class="footer-links">
-						<h3>Helpful Links</h3>
+						<h3>Links de ayuda</h3>
 						<ul>
-							<li><a href="#"><span>Contact</span></a></li>
-							<li><a href="#"><span>Privacy Policy</span></a></li>
-							<li><a href="#"><span>Terms of Use</span></a></li>
+							<li><a href="#"><span>Contacto</span></a></li>
+							<li><a href="#"><span>Politica de Privacidad</span></a></li>
+							<li><a href="#"><span>Terminos de Uso</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -1057,18 +1049,18 @@
 				<!-- Links -->
 				<div class="col-xl-2 col-lg-2 col-md-3">
 					<div class="footer-links">
-						<h3>Account</h3>
+						<h3>Cuenta</h3>
 						<ul>
 							<li><a href="#"><span>Log In</span></a></li>
-							<li><a href="#"><span>My Account</span></a></li>
+							<li><a href="#"><span>Mi cuenta</span></a></li>
 						</ul>
 					</div>
 				</div>
 
 				<!-- Newsletter -->
 				<div class="col-xl-4 col-lg-4 col-md-12">
-					<h3><i class="icon-feather-mail"></i> Sign Up For a Newsletter</h3>
-					<p>Weekly breaking news, analysis and cutting edge advices on job searching.</p>
+					<h3><i class="icon-feather-mail"></i> Registrarse para recibir boletín</h3>
+					<p>Noticias de última hora, análisis y consejos de vanguardia en la búsqueda de empleo.</p>
 					<form action="#" method="get" class="newsletter">
 						<input type="text" name="fname" placeholder="Enter your email address">
 						<button type="submit"><i class="icon-feather-arrow-right"></i></button>
@@ -1084,7 +1076,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
-					© 2018 <strong>Hireo</strong>. All Rights Reserved.
+					© 2018 <strong>GenDigital</strong>. Todos los derechos reservados.
 				</div>
 			</div>
 		</div>
@@ -1119,8 +1111,8 @@
 // Snackbar for user status switcher
 $('#snackbar-user-status label').click(function() { 
 	Snackbar.show({
-		text: 'Your status has been changed!',
-		pos: 'bottom-center',
+		text: 'Tu estado ha cambiado',
+		pos: 'bottom-right',
 		showAction: false,
 		actionText: "Dismiss",
 		duration: 3000,
